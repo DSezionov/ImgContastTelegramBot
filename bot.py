@@ -5,7 +5,8 @@ import telebot
 import urllib.request
 from PIL import Image, ImageFilter
 
-TOKEN = '2135407534:AAGmUI_bYITMN05FMPx8XzLJSk8mcDNvJEg'
+from config import TOKEN
+
 bot = telebot.TeleBot(TOKEN)
 
 RESULT_STORAGE_DIR = 'temp'
